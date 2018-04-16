@@ -1,0 +1,155 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "ng2-org-chart@1.0.0",
+        "scope": null,
+        "escapedName": "ng2-org-chart",
+        "name": "ng2-org-chart",
+        "rawSpec": "1.0.0",
+        "spec": ">=1.0.0 <2.0.0",
+        "type": "range"
+      },
+      "C:\\ng\\smart-office\\so-ui-proto"
+    ]
+  ],
+  "_from": "ng2-org-chart@>=1.0.0 <2.0.0",
+  "_id": "ng2-org-chart@1.0.0",
+  "_inCache": true,
+  "_location": "/ng2-org-chart",
+  "_nodeVersion": "7.3.0",
+  "_npmOperationalInternal": {
+    "host": "s3://npm-registry-packages",
+    "tmp": "tmp/ng2-org-chart-1.2.0.tgz_1500014262465_0.615712828701362"
+  },
+  "_npmUser": {
+    "name": "karci26",
+    "email": "karci26@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "ng2-org-chart@^1.2.0",
+    "scope": null,
+    "escapedName": "ng2-org-chart",
+    "name": "ng2-org-chart",
+    "rawSpec": "^1.2.0",
+    "spec": ">=1.2.0 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/ng2-org-chart/-/ng2-org-chart-1.2.0.tgz",
+  "_shasum": "f712cc9f77dd036934112c239a01c33e1a86c982",
+  "_shrinkwrap": null,
+  "_spec": "ng2-org-chart@^1.2.0",
+  "_where": "C:\\ng\\smart-office\\so-ui-proto",
+  "author": {
+    "name": "Karthick Mani"
+  },
+  "bugs": {
+    "url": "https://github.com/mkarci26/org-chart/issues"
+  },
+  "dependencies": {},
+  "description": "Hierarchical Organizational Chart for Angular (4+)",
+  "devDependencies": {
+    "@angular/common": "~4.1.3",
+    "@angular/compiler": "~4.1.3",
+    "@angular/compiler-cli": "~4.1.3",
+    "@angular/core": "~4.1.3",
+    "@angular/platform-browser": "~4.1.3",
+    "@angular/platform-browser-dynamic": "~4.1.3",
+    "@types/jasmine": "2.5.36",
+    "@types/node": "^6.0.46",
+    "camelcase": "^4.0.0",
+    "concurrently": "3.4.0",
+    "core-js": "^2.4.1",
+    "glob": "^7.1.1",
+    "husky": "^0.14.3",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.5.0",
+    "karma-chrome-launcher": "^2.0.0",
+    "karma-cli": "^1.0.1",
+    "karma-html-reporter": "^0.2.7",
+    "karma-jasmine": "^1.1.0",
+    "karma-jasmine-html-reporter": "^0.2.2",
+    "lite-server": "^2.2.2",
+    "rimraf": "^2.6.1",
+    "rollup": "^0.42.0",
+    "rollup-plugin-sourcemaps": "^0.4.1",
+    "rollup-plugin-uglify": "^2.0.1",
+    "rxjs": "^5.0.1",
+    "standard-version": "^4.0.0",
+    "systemjs": "^0.19.40",
+    "tslint": "^4.4.2",
+    "typescript": "~2.3.0",
+    "validate-commit-msg": "^2.12.2",
+    "zone.js": "^0.8.4"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "f712cc9f77dd036934112c239a01c33e1a86c982",
+    "tarball": "https://registry.npmjs.org/ng2-org-chart/-/ng2-org-chart-1.2.0.tgz"
+  },
+  "engines": {
+    "node": ">= 6.9.0",
+    "npm": ">= 3.0.0"
+  },
+  "es2015": "./ng2-org-chart.js",
+  "homepage": "https://github.com/mkarci26/org-chart",
+  "keywords": [
+    "org-chart",
+    "organization",
+    "organizational chart",
+    "heirarchal chart",
+    "ng",
+    "angular",
+    "angular 2",
+    "angular 4"
+  ],
+  "license": "MIT",
+  "main": "./bundles/ng2-org-chart.umd.js",
+  "maintainers": [
+    {
+      "name": "nulldev",
+      "email": "ashish@mondal.in"
+    }
+  ],
+  "module": "./ng2-org-chart.es5.js",
+  "name": "ng2-org-chart",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": ">=4.0.0 <5.0.0 || >=4.0.0-beta <5.0.0"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkarci26/org-chart.git"
+  },
+  "scripts": {
+    "build": "node build.js",
+    "build-demo": "tsc -p src/demo/",
+    "build-demo:watch": "tsc -p src/demo/ -w",
+    "build-test": "tsc -p src/lib/tsconfig.spec.json",
+    "build-test:watch": "tsc -p src/lib/tsconfig.spec.json -w",
+    "clean": "rimraf out-tsc dist/*",
+    "commitmsg": "validate-commit-msg",
+    "integration": "npm run integration:aot && npm run integration:jit",
+    "integration:aot": "cd integration && npm run e2e:aot",
+    "integration:jit": "cd integration && npm run e2e",
+    "lint": "tslint ./src/**/*.ts -t verbose",
+    "prebuild": "npm run clean",
+    "preintegration": "npm run build && cd integration && npm run clean && npm install",
+    "prestart": "npm run build-demo",
+    "pretest": "npm run build-test",
+    "pretest:once": "npm run build-test",
+    "release": "standard-version",
+    "serve": "lite-server -c=bs-config.json",
+    "start": "concurrently \"npm run build-demo:watch\" \"npm run serve\"",
+    "test": "concurrently \"npm run build-test:watch\" \"karma start karma.conf.js\"",
+    "test:once": "karma start karma.conf.js --single-run"
+  },
+  "typings": "./ng2-org-chart.d.ts",
+  "version": "1.0.0"
+}
