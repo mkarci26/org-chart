@@ -94,7 +94,7 @@ export class AppComponent {
 
 Here is the rendered output:
 
-![Sample Organizational Chart](https://raw.githubusercontent.com/nulldev07/org-chart/master/sample-org-chart.png)
+![Sample Organizational Chart](https://raw.githubusercontent.com/mkarci26/org-chart/master/org-chart.JPG)
 
 ## Custom CSS
 You can override default styles with your custom CSS. Make sure you include your custom CSS *after* including the default CSS so that your styles override the default styles.
